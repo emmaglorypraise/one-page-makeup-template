@@ -43,8 +43,9 @@ body {
   background-image: url('../images/Group\ 392.svg');
   background-repeat: no-repeat;
   background-position: top right;
-  background-size: 70%;
-  height: 60vh;
+  height: 100vh;
+  background-size: contain;
+
 }
 
 .mobile-header-container 
@@ -91,6 +92,8 @@ header .header-container h2{
   font-size: 24px;
   color: #333333;
   line-height: 33px;
+  margin-top: 40px;
+  max-width: 320px;
 }
 
 header .header-container p{    
@@ -113,16 +116,19 @@ header .header-container button {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border: none;
   border-radius: 69px;
+  margin-top: 30px;
 }
 
 .tags .container {
   max-width: 800px;
-  margin-bottom: 20px;
+  margin-bottom: 60px;
+  margin-top: 10px;
 }
 
 .tags .min-card {
+  background-color: #FFFFFF;
   margin-top: 20px;
-  padding: 5px;
+  padding: 25px;
   max-width: 203px;
   box-shadow: 0px 4px 8px rgba(218, 217, 212, 0.2);
 }
@@ -141,12 +147,9 @@ header .header-container button {
   color: #000000;
 }
 
-.about .img-background {
-  background-color: #FFFFFF;
-}
-
-.about img {
+.about .img-background img {
   background-size: cover;
+  border: 15px solid #FFFFFF;
 }
 
 .about h2 {
@@ -160,8 +163,8 @@ header .header-container button {
 
 .about h3 {
   font-weight: 600;
-  font-size: 16px;
-  line-height: 22px;
+  font-size: 24px;
+  line-height: 33px;
   color: #000000;
   margin-bottom: 20px;
 }
@@ -259,7 +262,7 @@ header .header-container button {
 .services-desktop {
   background-image: url("../images/Ellipse\ 16.png");
   background-repeat: no-repeat;
-  background-size: 70%;
+  background-size: 60%;
   background-position: top left;
   
 }
@@ -288,7 +291,8 @@ header .header-container button {
 
 @media (min-width: 1300px) {
   .header-desktop {
-    background-size: 60%;
+    /* background-size: 100%; */
+    height: 100%;
   }
 }
 
