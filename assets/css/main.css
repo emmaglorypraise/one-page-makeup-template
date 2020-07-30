@@ -2,11 +2,12 @@ body {
   font-family: 'Nunito Sans', sans-serif;
   background-color: #FAFCFA;
 }
+
 .nav-mobile {
   background-image: url('../images/Group\ 394.png');
   background-size: cover;
   background-repeat: no-repeat;
-  height: 70vh;
+  height: 110vh;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -47,9 +48,8 @@ body {
   background-size: contain;
 
 }
-
-.mobile-header-container 
-.mobile-header-container  .header-container h2{    
+ 
+.mobile-header-container h2{    
   font-family: 'Lora', serif;
   font-style: normal;
   font-weight: bold;
@@ -58,16 +58,16 @@ body {
   line-height: 33px;
 }
 
-.mobile-header-container  .header-container p{    
+.mobile-header-container  p{    
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   text-transform: capitalize;
-  line-height: 19px;
+  line-height: 29px;
   color: #333333;
 }
 
-.mobile-header-container  .header-container button {
+.mobile-header-container button {
   padding: 10px;
   background: #FF922C;
   color: #FFFFFF;
@@ -78,12 +78,8 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border: none;
   border-radius: 69px;
+  margin-top: 10px;
 } 
-
-/* 
-.header-mobile .header-container {
-  margin-top: -250px;
-} */
 
 header .header-container h2{    
   font-family: 'Lora', serif;
@@ -191,7 +187,7 @@ header .header-container button {
 .services {
   background-image: url("../images/Ellipse\ 17.png");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   width: 100%;
   background-position: top bottom;
 }
@@ -267,6 +263,10 @@ header .header-container button {
   
 }
 
+.services-desktop .img-box{
+  width: 250px;
+}
+
 .services-desktop h2 {
   margin-top: 80px;
   font-family: 'Lora', sans-serif;
@@ -280,12 +280,30 @@ header .header-container button {
 
 .services-desktop h3 {
   width: 367px;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
   line-height: 33px;
   color: #000000;
+}
+
+.services-desktop .major-image{
+  margin-left: -90px;
+  margin-top: 190px;
+  width: 400px;
+}
+
+.services-desktop .image-top {
+  width: 300px;
+}
+
+.services-desktop .view-all {
+  margin: -50px  80px 0 0;
+}
+
+.services-desktop .view-all span img {
+  margin-top: 20px;
 }
 
 
@@ -297,19 +315,27 @@ header .header-container button {
 }
 
 @media (max-width: 600px) {
+  .nav-mobile {
+    background-image: url('../images/Group\ 394.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 160vh;
+  }
+
   .tags .min-card h2{
     font-size: 14px;
   }
+
   .tags .min-card h3{
     font-size: 8px;
   }
 }
-/* 
+
 @media (min-width: 356px) {
   .nav-mobile {
     background-image: url('../images/mobile\ hero\ image\ resized.png');
     background-size: cover;
-    height: 50vh;
+    height: 145vh;
     background-position: top center;
   }
-} */
+}
