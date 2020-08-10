@@ -309,6 +309,7 @@ header .header-container button {
 }
 
 .testimonials {
+  margin-top: 50px;
   margin-bottom: 20px;
 }
 
@@ -372,15 +373,25 @@ header .header-container button {
   color: #4F4F4F;
 }
 
+.contact .container {
+  margin: 40px  auto 70px ;
+}
+
 .contact .contact-form-wrapper {
   background-color: #FFFFFF;
-  padding: 20px;
+  padding: 30px;
+  height: 100%;
+}
+
+.contact img {
+  /* background-size: cover; */
+  width: 100%;
 }
 
 .contact .contact-form-wrapper .contact-heading h2{
   font-family: 'Lora', sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 24px;
   line-height: 31px;
   
@@ -390,11 +401,51 @@ header .header-container button {
 .contact .contact-form-wrapper .contact-heading h3{
   font-style: normal;
   font-weight: normal;
-  font-size: 32px;
-  line-height: 44px;
+  font-size: 24px;
+  line-height: 24px;
+  /* font-size: 32px;
+  line-height: 44px; */
   /* identical to box height */
 
+  margin-bottom: 30px;
   color: #000000;
+}
+
+.contact .contact-form-wrapper input {
+  background-color: rgba(255, 146, 44, 0.1);
+  height: 64px;
+  border: none;
+  
+  line-height: 22px;
+  color: #000000;
+  margin-top: 20px;
+}
+
+.contact .contact-form-wrapper textarea {
+  background-color: rgba(255, 146, 44, 0.1);
+  border: none;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+  margin-top: 20px;
+}
+
+.contact .contact-form-wrapper button {
+  background-color: #FF922C;
+  border:  1px solid #FF922C;
+  box-shadow: 0px 20px 40px #F4E2D1;
+  border-radius: 69px;
+  width: 172px;
+  height: 56px;
+  margin-top: 40px;
+
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: capitalize;
+  
+  color: #FFFFFF;
 }
      
 
